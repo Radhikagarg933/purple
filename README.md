@@ -150,7 +150,7 @@ GET /stores/{id}/heatmap	Heatmap Data
 GET /stores/{id}/anomalies	Detected Anomalies
 ⚙️ Installation & Setup
 Clone Repository
-git clone https://github.com/your-username/store-intelligence-platform.git
+git clone https://github.com/Radhikagarg933/purple.git
 
 cd store-intelligence-platform
 Install Dependencies
