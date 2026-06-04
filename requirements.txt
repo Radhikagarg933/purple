@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+redis
+opencv-python
+numpy
+pandas
+ultralytics
+supervision
+pytest
+httpx
+python-multipart
