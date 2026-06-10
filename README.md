@@ -151,6 +151,7 @@ GET /stores/{id}/anomalies	Detected Anomalies
 ⚙️ Installation & Setup
 Clone Repository
 git clone https://github.com/Radhikagarg933/purple.git
+Demo video-https://youtu.be/MCsMq2lfEl0?si=3cJc_WLMGJ0uIuSe
 
 cd store-intelligence-platform
 Install Dependencies
