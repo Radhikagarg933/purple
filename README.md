@@ -189,13 +189,12 @@ Transforming retail store data into actionable insights through real-time analyt
 ## ⚙️ Installation & Setup
 
 ### Clone Repository
-```bash
-git clone https://github.com/Radhikagarg933/purple.git
+[🔗 Clone Repository](https://github.com/Radhikagarg933/purple.git)
+
 ---
 
-###🎥 Demo Video
-https://youtu.be/MCsMq2lfEl0?si=zNSbVmG4JeSm-DEEcd
-```
+### 🎥 Demo Video
+[Watch Demo Video](https://youtu.be/MCsMq2lfEl0?si=zNSbVmG4JeSm-DEEcd)
 ---
 
 ## ⚙️ Installation & Setup
