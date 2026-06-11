@@ -197,31 +197,37 @@ Transforming retail store data into actionable insights through real-time analyt
 [Watch Demo Video](https://youtu.be/MCsMq2lfEl0?si=zNSbVmG4JeSm-DEEcd)
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 How to Run the Project
+```bash
 
-### Install Dependencies
+### 1️⃣ Clone the Repository
+git clone https://github.com/Radhikagarg933/purple.git
+cd purple
+
+---
+
+### 2️⃣ Setup Backend
 pip install -r requirements.txt
-
-### Run Backend
 uvicorn app.main:app --reload
 
-Backend runs at:
+Backend will run at:
 http://localhost:8000
 
 ---
 
-### Run Frontend
+### 3️⃣ Setup Frontend
 cd dashboard
 npm install
 npm run dev
 
-Frontend runs at:
+Frontend will run at:
 http://localhost:5173
 
 ---
 
-### Run with Docker
+### 4️⃣ Run with Docker (Optional)
 docker-compose up --build
+```
 
 ---
 
