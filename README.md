@@ -67,19 +67,22 @@ Helps identify bottlenecks in conversion flow.
 ---
 
 ## 🏗️ System Architecture
+
+```bash
 Data Sources (Events / Transactions / Sessions)
-↓
+        ↓
 Data Ingestion Layer
-↓
+        ↓
 Analytics Services
-├── Metrics Engine
-├── Funnel Engine
-├── Heatmap Engine
-└── Anomaly Engine
-↓
+    ├── Metrics Engine
+    ├── Funnel Engine
+    ├── Heatmap Engine
+    └── Anomaly Engine
+        ↓
 FastAPI Backend
-↓
+        ↓
 React Dashboard
+```
 ---
 
 ## 🛠️ Tech Stack
@@ -162,53 +165,84 @@ test/
 docs/
 ```
 
-📡 API Endpoints
-Endpoint	Description
-GET /health	Service Health Check
-GET /stores	Retrieve Store Information
-GET /events	Event Stream
-GET /stores/{id}/metrics	Store Metrics
-GET /stores/{id}/funnel	Funnel Analytics
-GET /stores/{id}/heatmap	Heatmap Data
-GET /stores/{id}/anomalies	Detected Anomalies
+# 🛍️ Store Intelligence Platform
 
-⚙️ Installation & Setup
-**Clone Repository**
+## 📊 AI-Powered Retail Analytics System  
+Transforming retail store data into actionable insights through real-time analytics, customer behavior tracking, and intelligent visualization.
+
+---
+
+## 📡 API Endpoints
+
+| Endpoint | Description |
+|----------|-------------|
+| GET /health | Service Health Check |
+| GET /stores | Retrieve Store Information |
+| GET /events | Event Stream |
+| GET /stores/{id}/metrics | Store Metrics |
+| GET /stores/{id}/funnel | Funnel Analytics |
+| GET /stores/{id}/heatmap | Heatmap Data |
+| GET /stores/{id}/anomalies | Detected Anomalies |
+
+---
+
+## ⚙️ Installation & Setup
+
+### Clone Repository
+```bash
 git clone https://github.com/Radhikagarg933/purple.git
-**Demo video link**
-https://youtu.be/MCsMq2lfEl0?si=zNSbVmG4JeSm-DEEcd purple
+---
 
-Install Dependencies
+###🎥 Demo Video
+https://youtu.be/MCsMq2lfEl0?si=zNSbVmG4JeSm-DEEcd
+```
+---
+
+## ⚙️ Installation & Setup
+
+### Install Dependencies
 pip install -r requirements.txt
-Run Backend
+
+### Run Backend
 uvicorn app.main:app --reload
 
 Backend runs at:
 http://localhost:8000
 
-Run Frontend
+---
+
+### Run Frontend
 cd dashboard
 npm install
 npm run dev
 
 Frontend runs at:
 http://localhost:5173
-Run with Docker
+
+---
+
+### Run with Docker
 docker-compose up --build
 
-📊 Business Impact
-Improve conversion rates
-Optimize store layout
-Understand customer behavior
-Increase operational efficiency
-Detect issues in real time
-Enable data-driven decisions
+---
 
-🔮 Future Enhancements
-Multi-store analytics
-AI-based sales forecasting
-Recommendation engine
-Queue detection system
-Customer segmentation
-Mobile application
-Cloud deployment
+## 📊 Business Impact
+
+- Improve conversion rates  
+- Optimize store layout  
+- Understand customer behavior  
+- Increase operational efficiency  
+- Detect issues in real time  
+- Enable data-driven decisions  
+
+---
+
+## 🔮 Future Enhancements
+
+- Multi-store analytics  
+- AI-based sales forecasting  
+- Recommendation engine  
+- Queue detection system  
+- Customer segmentation  
+- Mobile application  
+- Cloud deployment  
